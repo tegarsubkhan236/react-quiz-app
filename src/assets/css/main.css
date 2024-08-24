@@ -1,0 +1,36 @@
+.btn-purple {
+    color: #fff;
+    background-color: #754ffe;
+    border-color: #754ffe;
+}
+
+.btn-purple:hover {
+    color: #fff;
+    background-color: #6343d8;
+    border-color: #5e3fcb;
+}
+
+.btn-purple:focus {
+    box-shadow: 0 0 0 0.2rem rgba(138, 105, 254, 0.5);
+}
+
+.btn-purple:active {
+    color: #fff;
+    background-color: #5e3fcb;
+    border-color: #583bbf;
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.btn-purple:disabled {
+    color: #fff;
+    background-color: #754ffe;
+    border-color: #754ffe;
+}
+
+.spinner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--bs-body-bg);
+}
