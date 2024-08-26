@@ -27,6 +27,11 @@
     border-color: #754ffe;
 }
 
+.form-check-input:checked {
+    background-color: #5e3fcb;
+    border-color: #583bbf;
+}
+
 .spinner-container {
     display: flex;
     justify-content: center;
