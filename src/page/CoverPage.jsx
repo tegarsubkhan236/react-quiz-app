@@ -12,8 +12,8 @@ const CoverPage = () => {
             <Card.Body className="p-5">
                 <Image
                     src={Cover}
-                    className="mx-auto d-block"
-                    style={{width: '21rem', height: '21rem'}}
+                    className="mx-auto d-block img-fluid"
+                    style={{ maxWidth: '100%', height: 'auto' }}
                 />
                 <Card.Title className="text-center">Welcome to Quiz</Card.Title>
                 <Card.Text className="text-center">

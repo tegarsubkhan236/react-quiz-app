@@ -47,16 +47,16 @@ const QuizPage = () => {
         <Card>
             <Card.Body className="p-3">
                 <Row>
-                    <Col md={9}>
+                    <Col sm={12} md={9}>
                         <Stack direction="horizontal">
                             <Image src={Logo}/>
                             <ListGroup variant="flush">
-                                <ListGroup.Item>Category : <b>{selectedCategory}</b></ListGroup.Item>
-                                <ListGroup.Item>Difficulty : <b>{selectedDifficulty}</b></ListGroup.Item>
+                                <ListGroup.Item><Card.Text>Category : <b>{selectedCategory}</b></Card.Text></ListGroup.Item>
+                                <ListGroup.Item><Card.Text>Difficulty : <b>{selectedDifficulty}</b></Card.Text></ListGroup.Item>
                             </ListGroup>
                         </Stack>
                     </Col>
-                    <Col md={3} className="d-flex justify-content-end">
+                    <Col sm={12} md={3} className="d-flex justify-content-end">
                         <Stack direction="horizontal" gap={1}>
                             <Clock color="red"/>
                             <Card.Text style={{color: 'red'}}>
@@ -67,10 +67,10 @@ const QuizPage = () => {
                 </Row>
                 <hr/>
                 <Row>
-                    <Col md={6}>
+                    <Col sm={12} md={6}>
                         <Card.Text>Exam Progress</Card.Text>
                     </Col>
-                    <Col md={6} className="d-flex justify-content-end">
+                    <Col sm={12} md={6} className="d-flex justify-content-end">
                         <Card.Text>{`Question ${currentQuestionIndex + 1} out of ${data.length}`}</Card.Text>
                     </Col>
                     <Col md={12}>
